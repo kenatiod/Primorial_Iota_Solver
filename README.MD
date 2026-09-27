@@ -6,7 +6,7 @@ A Python implementation for finding the least prime-smoothness level attained by
 
 Let $p_j$ be the $j$th prime and $P_n=\prod_{j=1}^{n}p_j$ the $n$th primorial. For an integer $t>1$, let $\mathrm{gpf}(t)$ be its greatest prime factor, and let $\pi(p_j)=j$. Define
 
-$$\iota_{\min}(n)=\min_{P_n\le m(m+1)<P_{n+1}}\pi\!\left(\mathrm{gpf}(m(m+1))\right),\qquad m\ge1.$$
+$$\iota_{\min}(n)=\min_{P_n\le m(m+1)\lt P_{n+1}}\pi\left(\mathrm{gpf}(m(m+1))\right),\qquad m\ge1.$$
 
 Thus $\iota_{\min}(n)$ is the smallest index $s$ such that *some* consecutive pair $m,m+1$ in the $n$th product interval consists entirely of numbers with prime factors among $2,3,\ldots,p_s$. It is **not** a count of prime factors and is **not** necessarily equal to $n$. For example, $P_4=210$, $P_5=2310$, and $m=15$ gives $m(m+1)=240$ with greatest prime factor $5=p_3$; consequently $\iota_{\min}(4)=3$ (the lower levels must also be excluded to prove equality).
 
