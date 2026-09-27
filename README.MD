@@ -4,7 +4,7 @@ A Python implementation for finding the least prime-smoothness level attained by
 
 ## The quantity being computed
 
-Let $p_j$ be the $j$th prime and $P_n=\prod_{j=1}^{n}p_j$ the $n$th primorial. For an integer $t>1$, let $\mathrm{gpf}(t)$ be its greatest prime factor, and let $\pi(p_j)=j$. Define
+Let $p_j$ be the $j$-th prime and $P_n=\prod_{j=1}^{n}p_j$ the $n$-th primorial. For an integer $t>1$, let $\mathrm{gpf}(t)$ be its greatest prime factor, and let $\pi(p_j)=j$. Define
 
 $$\iota_{\min}(n)=\min_{P_n\le m(m+1)\lt P_{n+1}}\pi\left(\mathrm{gpf}(m(m+1))\right),\qquad m\ge1.$$
 
